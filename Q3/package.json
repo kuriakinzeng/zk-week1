@@ -13,6 +13,7 @@
     "snarkjs": "^0.4.22"
   },
   "scripts": {
-    "test": ". scripts/bonus-compile.sh && node scripts/bonus-bump-solidity.js && npx hardhat test"
+    "compile-test": ". scripts/compile-LessThan10.sh && node scripts/bump-solidity-LessThan10.js && npx hardhat test",
+    "test-bonus": ". scripts/bonus-compile.sh && node scripts/bonus-bump-solidity.js && npx hardhat test"
   }
 }
